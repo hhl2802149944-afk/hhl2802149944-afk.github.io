@@ -1,26 +1,5 @@
 # Han Haolin's Resume
 
-This is a personal resume website built with Vue 3 and Vite, following the architecture and syntax learned in COMP3047.
-
-## Features
-- **Modern Vue 3 Architecture**: Uses Composition API, Components, and Views.
-- **Responsive Design**: Polished layout for both desktop and mobile.
-- **Automated Deployment**: Integrated GitHub Actions for seamless updates to GitHub Pages.
-
-## Project Setup
-
-```sh
-# Install dependencies
-npm install
-
-# Compile and Hot-Reload for Development
-npm run dev
-
-# Compile and Minify for Production
-npm run build
-```
-
-## Deployment
-The project is configured to automatically deploy to GitHub Pages whenever you push to the `main` branch. 
+This is a personal resume website built with Vue 3 and Vite.
 
 Visit the live site: [https://hhl2802149944-afk.github.io/](https://hhl2802149944-afk.github.io/)
