@@ -84,12 +84,12 @@ const goToMantaRobotic = () => {
 }
 
 .nav-container {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1000px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  padding: 0 4rem;
 }
 
 .nav-logo {
@@ -103,7 +103,6 @@ const goToMantaRobotic = () => {
 .nav-links {
   display: flex;
   gap: 2rem;
-  align-items: center;
 }
 
 .nav-item {
@@ -141,7 +140,6 @@ const goToMantaRobotic = () => {
 .burger {
   display: none;
   cursor: pointer;
-  margin-left: auto;
 }
 
 .burger div {
@@ -153,6 +151,10 @@ const goToMantaRobotic = () => {
 }
 
 @media screen and (max-width: 768px) {
+  .nav-container {
+    padding: 0 2rem;
+  }
+
   .nav-links {
     position: absolute;
     right: 0px;
@@ -174,6 +176,12 @@ const goToMantaRobotic = () => {
 
   .burger {
     display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-container {
+    padding: 0 1rem;
   }
 }
 </style>

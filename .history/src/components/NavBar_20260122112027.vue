@@ -103,7 +103,6 @@ const goToMantaRobotic = () => {
 .nav-links {
   display: flex;
   gap: 2rem;
-  align-items: center;
 }
 
 .nav-item {

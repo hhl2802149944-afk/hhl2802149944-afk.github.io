@@ -103,7 +103,6 @@ const goToMantaRobotic = () => {
 .nav-links {
   display: flex;
   gap: 2rem;
-  align-items: center;
 }
 
 .nav-item {
@@ -141,7 +140,6 @@ const goToMantaRobotic = () => {
 .burger {
   display: none;
   cursor: pointer;
-  margin-left: auto;
 }
 
 .burger div {
